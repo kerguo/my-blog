@@ -266,7 +266,7 @@ mod Counter {
 }
 ```
 
- 总结你原来代码的问题：
+ 总结代码的问题：
 	1.	fn increment(); → 必须带 self。
 	2.	impl 里少了 increment 的实现。
 	3.	忘记 use starknet::storage::{StoragePointerReadAccess, StoragePointerWriteAccess}; 导入。
