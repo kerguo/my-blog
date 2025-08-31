@@ -1,4 +1,11 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* You can remove the old v3 directives; v4 doesn't need them:
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*/
 
 :root {
   --background: #ffffff;
